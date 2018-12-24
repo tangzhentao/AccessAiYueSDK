@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2400C00120ECAF16004E68BB /* libAiYueSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2400C00020ECAF16004E68BB /* libAiYueSDK.a */; };
+		24169BC41FDFA40700D211CC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24169BC31FDFA40700D211CC /* TableViewController.m */; };
+		24169BC71FDFA4A200D211CC /* ShareTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24169BC61FDFA4A200D211CC /* ShareTypeModel.m */; };
+		24743B941F283EA900A24BBB /* libAiYueSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24743B931F283EA900A24BBB /* libAiYueSDK.a */; };
+		24D2E6501F2748A200F57A4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D2E64F1F2748A200F57A4F /* main.m */; };
+		24D2E6531F2748A200F57A4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D2E6521F2748A200F57A4F /* AppDelegate.m */; };
+		24D2E6581F2748A200F57A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D2E6571F2748A200F57A4F /* Assets.xcassets */; };
+		24D2E65B1F2748A200F57A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D2E6591F2748A200F57A4F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2400BFFC20ECAF16004E68BB /* AiYueSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AiYueSDK.h; sourceTree = "<group>"; };
+		2400BFFD20ECAF16004E68BB /* AYMessageFromAiYue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMessageFromAiYue.h; sourceTree = "<group>"; };
+		2400BFFE20ECAF16004E68BB /* AYRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYRequest.h; sourceTree = "<group>"; };
+		2400BFFF20ECAF16004E68BB /* AYResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYResponse.h; sourceTree = "<group>"; };
+		2400C00020ECAF16004E68BB /* libAiYueSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAiYueSDK.a; sourceTree = "<group>"; };
+		24169BC21FDFA40700D211CC /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		24169BC31FDFA40700D211CC /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		24169BC51FDFA4A200D211CC /* ShareTypeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareTypeModel.h; sourceTree = "<group>"; };
+		24169BC61FDFA4A200D211CC /* ShareTypeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareTypeModel.m; sourceTree = "<group>"; };
+		24743B931F283EA900A24BBB /* libAiYueSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAiYueSDK.a; path = "../../../Library/Developer/Xcode/DerivedData/AiYue-bewfretmbzzpkzctawgcvpzlknqb/Build/Products/Debug-iphoneos/libAiYueSDK.a"; sourceTree = "<group>"; };
+		24D2E64B1F2748A200F57A4F /* AiYueSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiYueSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D2E64F1F2748A200F57A4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24D2E6511F2748A200F57A4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24D2E6521F2748A200F57A4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24D2E6571F2748A200F57A4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24D2E65A1F2748A200F57A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24D2E65C1F2748A200F57A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D2E6481F2748A200F57A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2400C00120ECAF16004E68BB /* libAiYueSDK.a in Frameworks */,
+				24743B941F283EA900A24BBB /* libAiYueSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2400BFFB20ECAF16004E68BB /* AiYueSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2400BFFC20ECAF16004E68BB /* AiYueSDK.h */,
+				2400BFFD20ECAF16004E68BB /* AYMessageFromAiYue.h */,
+				2400BFFE20ECAF16004E68BB /* AYRequest.h */,
+				2400BFFF20ECAF16004E68BB /* AYResponse.h */,
+				2400C00020ECAF16004E68BB /* libAiYueSDK.a */,
+			);
+			path = AiYueSDK;
+			sourceTree = "<group>";
+		};
+		24D2E6421F2748A200F57A4F = {
+			isa = PBXGroup;
+			children = (
+				24D2E64D1F2748A200F57A4F /* AiYueSDKDemo */,
+				24D2E64C1F2748A200F57A4F /* Products */,
+				24D2E6711F276E5700F57A4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24D2E64C1F2748A200F57A4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D2E64B1F2748A200F57A4F /* AiYueSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D2E64D1F2748A200F57A4F /* AiYueSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				24D2E6511F2748A200F57A4F /* AppDelegate.h */,
+				24D2E6521F2748A200F57A4F /* AppDelegate.m */,
+				24169BC21FDFA40700D211CC /* TableViewController.h */,
+				24169BC31FDFA40700D211CC /* TableViewController.m */,
+				24169BC51FDFA4A200D211CC /* ShareTypeModel.h */,
+				24169BC61FDFA4A200D211CC /* ShareTypeModel.m */,
+				24D2E6571F2748A200F57A4F /* Assets.xcassets */,
+				24D2E6591F2748A200F57A4F /* LaunchScreen.storyboard */,
+				24D2E65C1F2748A200F57A4F /* Info.plist */,
+				2400BFFB20ECAF16004E68BB /* AiYueSDK */,
+				24D2E64E1F2748A200F57A4F /* Supporting Files */,
+			);
+			path = AiYueSDKDemo;
+			sourceTree = "<group>";
+		};
+		24D2E64E1F2748A200F57A4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24D2E64F1F2748A200F57A4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24D2E6711F276E5700F57A4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24743B931F283EA900A24BBB /* libAiYueSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24D2E64A1F2748A200F57A4F /* AiYueSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D2E65F1F2748A200F57A4F /* Build configuration list for PBXNativeTarget "AiYueSDKDemo" */;
+			buildPhases = (
+				24D2E6471F2748A200F57A4F /* Sources */,
+				24D2E6481F2748A200F57A4F /* Frameworks */,
+				24D2E6491F2748A200F57A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AiYueSDKDemo;
+			productName = AiYueSDKDemo;
+			productReference = 24D2E64B1F2748A200F57A4F /* AiYueSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24D2E6431F2748A200F57A4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = guangying_tang;
+				TargetAttributes = {
+					24D2E64A1F2748A200F57A4F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 52G6BSNMNC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 24D2E6461F2748A200F57A4F /* Build configuration list for PBXProject "AiYueSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24D2E6421F2748A200F57A4F;
+			productRefGroup = 24D2E64C1F2748A200F57A4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24D2E64A1F2748A200F57A4F /* AiYueSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D2E6491F2748A200F57A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D2E6581F2748A200F57A4F /* Assets.xcassets in Resources */,
+				24D2E65B1F2748A200F57A4F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24D2E6471F2748A200F57A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D2E6531F2748A200F57A4F /* AppDelegate.m in Sources */,
+				24D2E6501F2748A200F57A4F /* main.m in Sources */,
+				24169BC41FDFA40700D211CC /* TableViewController.m in Sources */,
+				24169BC71FDFA4A200D211CC /* ShareTypeModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24D2E6591F2748A200F57A4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D2E65A1F2748A200F57A4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24D2E65D1F2748A200F57A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24D2E65E1F2748A200F57A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24D2E6601F2748A200F57A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52G6BSNMNC;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../AiYueSDK/AiYueSDK";
+				INFOPLIST_FILE = AiYueSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AiYueSDKDemo/AiYueSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guangying.AiYueSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24D2E6611F2748A200F57A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52G6BSNMNC;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../AiYueSDK/AiYueSDK";
+				INFOPLIST_FILE = AiYueSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AiYueSDKDemo/AiYueSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guangying.AiYueSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D2E6461F2748A200F57A4F /* Build configuration list for PBXProject "AiYueSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D2E65D1F2748A200F57A4F /* Debug */,
+				24D2E65E1F2748A200F57A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D2E65F1F2748A200F57A4F /* Build configuration list for PBXNativeTarget "AiYueSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D2E6601F2748A200F57A4F /* Debug */,
+				24D2E6611F2748A200F57A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24D2E6431F2748A200F57A4F /* Project object */;
+}
