@@ -40,34 +40,10 @@ static NSString *UITableViewCellID = @"UITableViewCellID";
 
 - (void)setupUI
 {
-    self.title = @"分享给好友";
+    self.title = @"爱约SDK功能演示";
     self.tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
-    
-   /*
-    分享到朋友圈功能已经移除
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"分享到朋友圈" style:0 target:self
-    action:@selector(switchScene)];
-    */
-
-    
+ 
     [self configTableview];
-}
-- (void)switchScene
-{
-    if (AYSceneSession == _scene) {
-        _scene = AYSceneTimeline;
-        self.title = @"分享到朋友圈";
-        self.navigationItem.rightBarButtonItem.title = @"分享给好友";
-
-    } else {
-        _scene = AYSceneSession;
-        self.title = @"分享给好友";
-        /*
-         分享到朋友圈功能已经移除
-         self.navigationItem.rightBarButtonItem.title = @"分享到朋友圈";
-         */
-
-    }
 }
 
 - (void)setupData
