@@ -1,6 +1,5 @@
-# 爱约SDK iOS版接入文档
-
 [TOC]
+# 爱约SDK iOS版接入文档
 >在接入AiYueSDK之前需要：
 >1. 申请AppID
 >2. 获取AiYueSDK、
