@@ -1,4 +1,3 @@
-[TOC]
 # 爱约SDK iOS版接入文档
 >在接入AiYueSDK之前需要：
 >1. 申请AppID
@@ -12,7 +11,7 @@
 如果需要在分享链接中传递自定义数据还需要实现`AiYueSDKDelegate`协议、设置SDK的代理，具体参见AiYueSDKDemo
 ##### 注册AppID
 在使用AiYueSDK之前需要先注册AppID。具体在AppDelegate中app启动方法中注册AppID。
-```
+```Objective-C
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     // ...
@@ -27,7 +26,7 @@
 当爱约处理完app的请求后(比如，授权登录、分享链接到爱约)，会再需要的时候叫起你的app；
 当用户点击你分享到爱约的链接时，如果用户手机上安装了你的app，也会叫起你的app；
 这时需要在以下方法中处理叫起之后的任务。
-```
+```Objective-C
 -(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
     // ...
@@ -51,7 +50,7 @@ AiYueSDK支持授权登录、分享图片、链接等功能；
 获取爱约用户的基本信息分为两步：获取openId和通过AppID、openId获取用户基本信息
 ###### 获取openId
 示例代码如下
-```
+```Objective-C
 /* 授权登录 */
 // 1. 创建一个授权登录请求
 AYAuthorizeLoginRequest *request = [AYAuthorizeLoginRequest new];
@@ -83,7 +82,7 @@ AYAuthorizeLoginRequest *request = [AYAuthorizeLoginRequest new];
 ```
 ###### 通过AppID、openId获取用户基本信息
 示例代码如下，其中接口说明详见AiYueSDKDemo中如下方法的函数体
-```
+```Objective-C
  /*
 去爱约服务器获取爱约用户基本信息；
 HTTP请求方式：GET/POST
@@ -135,7 +134,7 @@ HTTP请求方式：GET/POST
 ##### 2、分享图片
 分享UIImage类型的图片到爱约。
 示例代码如下：
-```
+```Objective-C
 /* 分享图片 */
 
 // 1. 创建一个分享图片的请求
@@ -172,7 +171,7 @@ request.image = [UIImage imageNamed:@"feature1_"];
 用户在爱约中点击分享的链接时，如果用户手机没有安装了您的app，爱约会打开该链接；
 如果安装了您的app，爱约会叫起您的app并把扩展数据传递给您的app，如果存在扩展的话；
 示例代码如下：
-```
+```Objective-C
 /* 分享带扩展链接 */
 
  // 1. 创建一个分享带扩展链接的请求
@@ -208,7 +207,7 @@ request.ext = @{
 通过分享扩展链接，你可以把自定义数据传递给爱约。当用户点击扩展链接时，爱约在叫起你的app时
 会把自定义数据传给你的app。获取传递的自定义数据，需要实现`AiYueSDKDelegate`协议。
 示例代码如下：
-```
+```Objective-C
 // 定义AppDelegate遵守AiYueSDKDelegate协议
 @interface AppDelegate () <AiYueSDKDelegate>
 
@@ -248,7 +247,7 @@ request.ext = @{
 
 #### 四、检测爱约是否已安装
 有时候需要判断用户手机上是否安装了爱约，此时可以使用一下方法
-```
+```Objective-C
 BOOL isInstalled = [AiYueSDK isAiYueInstalled];
 ```
 **注意** 需要在“Info.plist”中将爱约的URL Schemes——`aiyuesdk`列为白名单，才可正常检测爱约是否安装。
