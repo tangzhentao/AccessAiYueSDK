@@ -40,7 +40,7 @@
 
 另外，为了让爱约能叫起你的app，需要为你的app添加一个新的URL Schemes，URL Schemes值就是你的AppID；
 示例如下：
-![c37597f799f9af403c1c562b1debc61a.png](evernotecid://D0573CE3-9736-4CF8-86CC-A5C8AF81DACB/appyinxiangcom/17616258/ENResource/p83)
+![URL Schemes](URL_Schemes.png)
 
 
 #### 二、功能
